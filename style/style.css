@@ -1,6 +1,23 @@
+/* bootstrap overwrites */
+
 .bg-warning {
 	background-color: hsla(20, 80%, 55%, 1) !important;
 }
+
+a.nav-link {
+	color: rgba(255,255,255,.75);
+}
+
+a.nav-link:hover {
+	color: rgba(255,255,255,.9);
+}
+
+a.nav-link.active {
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+}
+
+/* vote */
 
 .footnote {
   color: blue;
@@ -9,6 +26,10 @@
 	font-size: 0.7em;
 	text-transform: uppercase;
 	line-height: 0em;
+}
+
+.footnote::selection, .vote_container::selection, .vote_option::selection {
+    background-color: hsla(210, 80%, 94%, 0);
 }
 
 .vote_container {
@@ -26,10 +47,6 @@
     height: auto;
     border-radius: 0.5em;
     border: 2px solid hsla(210, 50%, 99.8%, 1);
-}
-
-.footnote::selection, .vote_container::selection, .vote_option::selection {
-    background-color: hsla(210, 80%, 94%, 0);
 }
 
 .vote_option::after {
