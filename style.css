@@ -1,0 +1,61 @@
+.bg-warning {
+	background-color: hsla(20, 80%, 55%, 1) !important;
+}
+
+.footnote {
+  color: blue;
+  text-decoration: none;
+	vertical-align: super;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	line-height: 0em;
+}
+
+.vote_container {
+	padding: 1em;
+	background: hsla(210, 30%, 97%, 1);
+	border-radius: 1em;
+	margin-bottom: 2em;
+}
+
+.vote_option {
+    background: hsla(210, 50%, 99.8%, 1);
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    height: auto;
+    border-radius: 0.5em;
+    border: 2px solid hsla(210, 50%, 99.8%, 1);
+}
+
+.footnote::selection, .vote_container::selection, .vote_option::selection {
+    background-color: hsla(210, 80%, 94%, 0);
+}
+
+.vote_option::after {
+		content: "";
+    width: 1em;
+    height: 1em;
+    border-radius: 0.5em;
+    background-color: hsla(0,0,0,0);
+    border: 2px solid white;
+    float: right;
+    margin-top: 0.3em;
+    margin-right: 0.25em;
+    transition: 0.2s;
+}
+
+.vote_container input[type=checkbox] {
+    display: none;
+}
+
+.vote_container input[type=checkbox]:checked + .vote_option {
+    background-color: hsla(210, 80%, 94%, 1);
+    border-color: hsla(210, 100%, 50%, 1);
+    transition: 0.1s;
+}
+
+.vote_container input[type=checkbox]:checked + .vote_option::after {
+    background-color: hsla(210, 100%, 50%, 1);
+    transition: 0.3s;
+}
