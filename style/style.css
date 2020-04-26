@@ -99,3 +99,15 @@ section.intro {
     background-color: hsla(210, 100%, 50%, 1);
     transition: 0.3s;
 }
+
+input[type=submit].submit_survey {
+	background-color: hsla(20, 80%, 55%, 1);
+  border: none;
+  color: white;
+	padding: 1em;
+	height: auto;
+	border-radius: 0.5em;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
