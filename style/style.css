@@ -17,6 +17,19 @@
 	text-decoration: underline;
 }
 
+/* table */
+
+table {
+	border-top: none;
+	border-top-color: rgba(0,0,0,0);
+	}
+
+td {
+	width: 6em;
+	border-right: 2px solid white;
+}
+
+
 /* general */
 
 section.intro {
