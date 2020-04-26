@@ -44,6 +44,10 @@ section.intro {
 	margin-top: 10em;
 }
 
+kbd.submit {
+	background-color: hsla(20, 80%, 55%, 1);
+}
+
 /* vote */
 
 .footnote {
