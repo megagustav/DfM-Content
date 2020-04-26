@@ -37,7 +37,7 @@ td, th {
 /* general */
 
 p {
-	max-width: 64ch;
+	max-width: 70ch;
 }
 
 section.intro {
@@ -115,7 +115,8 @@ input[type=submit].submit_survey {
 	padding: 1em;
 	height: auto;
 	border-radius: 0.5em;
-  width: 100%;
+  width: calc(100% - 30px);
+  margin: 0 auto;
   text-decoration: none;
   cursor: pointer;
 }
