@@ -36,6 +36,10 @@ td, th {
 
 /* general */
 
+p {
+	max-width: 64ch;
+}
+
 section.intro {
 	margin-top: 10em;
 }
