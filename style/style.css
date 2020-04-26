@@ -20,7 +20,7 @@
 /* table */
 
 table {
-	margin-top: 1em;
+	margin-top: 0.3em;
 	}
 
 .table td, .table th {
@@ -28,8 +28,9 @@ table {
 	width: 6em;
 }
 
-td {
+td, th {
 	border-left: 2px solid white;
+	min-width: 15em;
 }
 
 
