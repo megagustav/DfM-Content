@@ -1,3 +1,4 @@
+<?php include "header.php";?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -59,8 +60,6 @@
           
           <button onClick="window.location.reload();" name="reload" value="Reload" type="button" class="btn btn-secondary">Reload</button>
           
-
-	</body>
 	<footer>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -155,4 +154,4 @@ $("ol.sorting").sortable({
 	</script>
 	
 	</footer>
-</html>
+<?php include "footer.php";?>
