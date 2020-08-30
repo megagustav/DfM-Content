@@ -15,7 +15,7 @@
             <div class="col-12">
               <ol class="sorting generated">
                 <?php include "terms-generator.php";?>
-                <li class="definition">Test test <span class="hl" id="2">ring</span> has an Akoya cultured pearl with a band of bezel-set round diamonds making it perfect for her to wear to work or the night out.<sup class="source"><a href="#123">123</a></sup></li>
+                
               </ol>
             </div>
             <div class="col-4">
