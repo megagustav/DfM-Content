@@ -1,8 +1,4 @@
 <footer>
-
-    <script src="js/application.js"></script>
-    <script src="js/jquery-sortable-min.js"></script>
-  
   
 		<script>
 $(document).ready(function(){
