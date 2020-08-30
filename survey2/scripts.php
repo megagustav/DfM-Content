@@ -1,16 +1,10 @@
 <footer>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
     <script src="js/jquery-sortable-min.js"></script>
-		<script>
-		$(function(){
-    $("#save").click(function () {
-        var mysave = $("#submit").html();
-        $("#hiddeninput").val(mysave);
-    });
-});
-		</script>
+  
+  
 		<script>
 $(document).ready(function(){
   $(".definition").addClass("toggledef");
@@ -49,7 +43,7 @@ function submit() {
 	var data = JSON.stringify(submitBody);
 	xhr.send(data);
 
-	debugger;
+	//debugger;
 }
 </script>
 	<script>

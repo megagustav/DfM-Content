@@ -1,4 +1,4 @@
-<?php include "header.php";?>
+<?php include "/header.php";?>
 
 	<body class="container-fluid">
 
@@ -47,4 +47,4 @@
           
 <?php include "scripts.php";?>	
 
-<?php include "footer.php";?>
+<?php include "/footer.php";?>
