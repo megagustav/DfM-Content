@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
   $(".definition").addClass("toggledef");
   $(".word").removeClass("highlight");
@@ -7,10 +6,7 @@ $(document).ready(function(){
     $(".word").toggleClass("highlight");
   });
 });
-</script>
 
-
-<script>
 function submit() {
 	var functionElements = $("ol.function li.definition").toArray();
 	var ritualisticElements = $("ol.ritual li.definition").toArray();
@@ -38,9 +34,8 @@ function submit() {
 
 	//debugger;
 }
-</script>
-	<script>
-	var adjustment;
+
+var adjustment;
 
 $("ol.sorting").sortable({
   group: "sorting",
@@ -76,4 +71,3 @@ $("ol.sorting").sortable({
     });
   }
 });
-	</script>
