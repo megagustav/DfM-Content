@@ -1,8 +1,8 @@
 $(function  () {
   var adjustment;
 
-  $("ol.simple_with_animation").sortable({
-    group: 'simple_with_animation',
+  $("ol.sorting").sortable({
+    group: 'sorting',
     pullPlaceholder: false,
     // animation on drop
     onDrop: function  ($item, container, _super) {

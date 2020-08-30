@@ -13,7 +13,7 @@
 
       <div class="row">
             <div class="col-12">
-              <ol class="sorting generated">
+              <ol class="sorting">
                 <?php include "terms-generator.php";?>
                 <li class="definition" id="9999">Test test <span class="word">hard coded test 1</span> has an Akoya cultured pearl with a band of bezel-set round diamonds making it perfect for her to wear to work or the night out.<sup class="source"><a href="#123">123</a></sup></li>
                 <li class="definition toggledef" id="1234">Test test <span class="word highlight">hardcore 2</span> has an Akoya cultured pearl with a band of bezel-set round diamonds making it perfect for her to wear to work or the night out.<sup class="source"><a href="#123">123</a></sup></li>
