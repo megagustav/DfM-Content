@@ -27,16 +27,16 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link disabled" href="report" tabindex="-1" aria-disabled="true">Report</a>
+						<a class="nav-link disabled" href="/report" tabindex="-1" aria-disabled="true">Report</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="definitions">Definitions</a>
+						<a class="nav-link" href="/definitions">Definitions</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="survey1">Survey 1</a>
+						<a class="nav-link disabled" href="/survey1">Survey 1</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="survey2">Survey 2</a>
+						<a class="nav-link" href="/survey2">Survey 2</a>
 					</li>
 				</ul>
 			</div>
