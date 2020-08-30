@@ -1,40 +1,3 @@
-$(document).ready(function(){
-  $(".definition").addClass("toggledef");
-  $(".word").removeClass("highlight");
-  $("#def").click(function(){
-    $(".definition").toggleClass("toggledef");
-    $(".word").toggleClass("highlight");
-  });
-});
-
-function submit() {
-	var functionElements = $("ol.function li.definition").toArray();
-	var ritualisticElements = $("ol.ritual li.definition").toArray();
-	var mysticElements = $("ol.myth li.definition").toArray();
-	var submitBody = {};
-	
-	for (const element of functionElements) {
-		submitBody[element.id] = 1
-	}
-	
-	for (const element of ritualisticElements) {
-		submitBody[element.id] = 2
-	}
-	
-	for (const element of mysticElements) {
-		submitBody[element.id] = 3
-	}
-	
-	var xhr = new XMLHttpRequest();
-	var url = "/func/vote2";
-	xhr.open("POST", url, true);
-	xhr.setRequestHeader("Content-Type", "application/json");
-	var data = JSON.stringify(submitBody);
-	xhr.send(data);
-
-	//debugger;
-}
-
 var adjustment;
 
 $("ol.sorting").sortable({
@@ -71,3 +34,40 @@ $("ol.sorting").sortable({
     });
   }
 });
+
+$(document).ready(function(){
+  $(".definition").addClass("toggledef");
+  $(".word").removeClass("highlight");
+  $("#def").click(function(){
+    $(".definition").toggleClass("toggledef");
+    $(".word").toggleClass("highlight");
+  });
+});
+
+function submit() {
+	var functionElements = $("ol.function li.definition").toArray();
+	var ritualisticElements = $("ol.ritual li.definition").toArray();
+	var mysticElements = $("ol.myth li.definition").toArray();
+	var submitBody = {};
+	
+	for (const element of functionElements) {
+		submitBody[element.id] = 1
+	}
+	
+	for (const element of ritualisticElements) {
+		submitBody[element.id] = 2
+	}
+	
+	for (const element of mysticElements) {
+		submitBody[element.id] = 3
+	}
+	
+	var xhr = new XMLHttpRequest();
+	var url = "/func/vote2";
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	var data = JSON.stringify(submitBody);
+	xhr.send(data);
+
+	//debugger;
+}
