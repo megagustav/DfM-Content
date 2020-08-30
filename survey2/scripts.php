@@ -1,6 +1,4 @@
-<footer>
-  
-		<script>
+<script>
 $(document).ready(function(){
   $(".definition").addClass("toggledef");
   $(".word").removeClass("highlight");
@@ -79,5 +77,3 @@ $("ol.sorting").sortable({
   }
 });
 	</script>
-	
-</footer>
