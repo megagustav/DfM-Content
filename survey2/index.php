@@ -1,6 +1,6 @@
 <?php include "../header.php";?>
 
-	<body class="container-fluid">
+	<section class="container intro">
 
         <div class="tables">
           <h3>Put these cards into their representative columns <span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span></h3>
@@ -46,5 +46,6 @@
           <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
           
           <button onClick="window.location.reload();" name="reload" value="Reload" type="button" class="btn btn-secondary">Reload</button>
-          
+</section>
+
 <?php include "../footer.php";?>
