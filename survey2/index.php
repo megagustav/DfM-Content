@@ -45,6 +45,4 @@
           
           <button onClick="window.location.reload();" name="reload" value="Reload" type="button" class="btn btn-secondary">Reload</button>
           
-<?php include "scripts.php";?>	
-
 <?php include "../footer.php";?>
