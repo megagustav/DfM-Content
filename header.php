@@ -16,7 +16,6 @@
 <script src="/js/application.js"></script>
 <script src="/js/jquery-sortable-min.js"></script>
 <?php include "/js/scripts.php";?>
-<?php include "terms-generator.php";?>
   
   <title>Design for Meaning</title>
 

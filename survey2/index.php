@@ -1,5 +1,7 @@
 <?php include "../header.php";?>
 
+<?php include "terms-generator.php";?>
+
 	<body class="container-fluid">
 
         <div class="tables">
