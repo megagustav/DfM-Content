@@ -68,7 +68,7 @@ $("ol.sorting").sortable({
   
 
   <script>
-$(document).ready(function(){
+  function(){
   $(".definition").addClass("toggledef");
   $(".word").removeClass("highlight");
   $("#def").click(function(){
