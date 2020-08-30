@@ -1,4 +1,4 @@
-<?php include "header.php";?>
+<?php include "/header.php";?>
 
 	<section class="container intro">
 		<h1>Definitions</h1>
@@ -632,4 +632,4 @@
 
 </section>
 
-<?php include "footer.php";?>
+<?php include "/footer.php";?>
