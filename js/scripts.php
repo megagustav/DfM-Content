@@ -1,16 +1,4 @@
 <script>
-$(document).ready(function(){
-  $(".definition").addClass("toggledef");
-  $(".word").removeClass("highlight");
-  $("#def").click(function(){
-    $(".definition").toggleClass("toggledef");
-    $(".word").toggleClass("highlight");
-  });
-});
-</script>
-
-
-<script>
 function submit() {
 	var functionElements = $("ol.function li.definition").toArray();
 	var ritualisticElements = $("ol.ritual li.definition").toArray();
@@ -76,4 +64,16 @@ $("ol.sorting").sortable({
     });
   }
 });
-	</script>
+  </script>
+  
+
+  <script>
+$(document).ready(function(){
+  $(".definition").addClass("toggledef");
+  $(".word").removeClass("highlight");
+  $("#def").click(function(){
+    $(".definition").toggleClass("toggledef");
+    $(".word").toggleClass("highlight");
+  });
+});
+</script>
