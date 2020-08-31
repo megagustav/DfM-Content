@@ -1,6 +1,6 @@
 <?php include "../header.php";?>
 
-	<section class="container intro">
+	<section class="container pb-5 mb-5 intro">
 
         <div class="tables">
           <h3>Put these cards into their representative columns <span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span></h3>
@@ -45,7 +45,7 @@
           
           <button onClick="window.location.reload();" name="reload" value="Reload" type="button" class="btn btn-secondary">Reload</button>
 </section>
-<section class="container sources">
+<section class="container pb-5 mb-5 sources">
   <p>1: Mekler and Hornbaek, 2019</p>
   <p>2: Wallendorf and Arnould (1988)</p>
   <p>3: Watson (2002)</p>
