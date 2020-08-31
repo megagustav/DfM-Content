@@ -45,7 +45,7 @@
           
           <button onClick="window.location.reload();" name="reload" value="Reload" type="button" class="btn btn-secondary">Reload</button>
 </section>
-<section class='sources'>
+<section class="container sources">
   <p>1: Mekler and Hornbaek, 2019</p>
   <p>2: Wallendorf and Arnould (1988)</p>
   <p>3: Watson (2002)</p>

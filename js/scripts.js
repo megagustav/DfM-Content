@@ -44,7 +44,7 @@ $(document).ready(function(){
   $("#def").click(function(){
     $(".definition").toggleClass("toggledef");
     $(".word").toggleClass("highlight");
-    $(".sources").addClass("d-block");
+    $(".sources").toggleClass("d-block");
   });
 });
 
