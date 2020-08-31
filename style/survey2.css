@@ -160,6 +160,7 @@ p.background {
   z-index: 0;
   padding: 0.7em 0 0 1em;
   font-size: 0.9em;
+  height: 2.5em;
 }
 
 .badge.new_words {
