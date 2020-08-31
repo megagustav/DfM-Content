@@ -39,10 +39,12 @@ $(function  () {
 
 $(document).ready(function(){
   $(".definition").addClass("toggledef");
+  $(".sources").addClass("d-none");
   $(".word").removeClass("highlight");
   $("#def").click(function(){
     $(".definition").toggleClass("toggledef");
     $(".word").toggleClass("highlight");
+    $(".sources").addClass("d-block");
   });
 });
 
