@@ -156,11 +156,10 @@ input:checked + .slider:before {
 }
 
 p.background {
-  position: absolute;
+  position: relative;
   z-index: 0;
-  padding: 0.7em 0 0 1em;
+  padding: 0.7em 1em 0 1em;
   font-size: 0.9em;
-  height: 2.5em;
 }
 
 .badge.new_words {
