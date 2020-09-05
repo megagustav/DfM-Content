@@ -7,8 +7,8 @@
 
           <label class="switch mb-5 float-right">
             <input id="def" type="checkbox">
-            <span class="slider round"></span>
             <span class="label">Show Context</span>
+            <span class="slider round"></span>
           </label>
 
           <div class="row mb-5">
