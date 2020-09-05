@@ -7,15 +7,15 @@
 
           <div class="row mb-5">
             <div class="col-md-4">
-              <h4 class="column_title">Function</p>
+              <h4 class="column_title">Function</h4>
               <p class="set_definition">The main features of a product.</p>
             </div>
             <div class="col-md-4">
-              <h4 class="column_title">Ritual</p>
+              <h4 class="column_title">Ritual</h4>
               <p class="set_definition">Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
             </div>
             <div class="col-md-4">
-              <h4 class="column_title">Myth</p>
+              <h4 class="column_title">Myth</h4>
               <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
             </div>
           </div>
@@ -29,19 +29,19 @@
           <div class="row">
 
             <div class="col-md-4">
-              <h4 class="column_title">Function</p>
+              <h4 class="column_title">Function</h4>
               <ol class="sorting function" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-              <h4 class="column_title">Ritual</p>
+              <h4 class="column_title">Ritual</h4>
               <ol class="sorting ritual" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-             	<h4 class="column_title">Myth</p>
+             	<h4 class="column_title">Myth</h4>
               <ol class="sorting myth" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
