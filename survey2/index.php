@@ -45,7 +45,7 @@
               <label class="switch">
                 <input id="def" type="checkbox">
                 <span class="slider round"></span>
-                <span class="label">Show Context</span>
+                <span class="label">Show Context and Sources</span>
               </label>
             </div>   
 
