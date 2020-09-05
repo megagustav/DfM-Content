@@ -11,37 +11,52 @@
             <span class="label">Show Context</span>
           </label>
 
-      <div class="row">
+          <div class="row">
+
+            <div class="col-md-4">
+              <ol class="sorting function">
+                <p class="set_definition">Function: situations in which a physical or informatic use is acting as the focus of attention, with less attention being paid to the psychological or sociological considerations.</p>
+              </ol>
+            </div>
+            <div class="col-md-4">
+              <ol class="sorting ritual">
+                <p class="set_definition">Ritual: when the meaning of the artefact is closely related to action of a symbolic nature.</p>
+              </ol>
+            </div>
+            <div class="col-md-4">
+              <ol class="sorting myth">
+                 <p class="set_definition">Myth: mainly symbolic meaning, thus not necessarily requiring dedicated externally visible activity on the part of the user.</p>
+              </ol>
+            </div>
+
             <div class="col-md-12">
               <ol class="sorting">
                 <?php include "terms-generator.php";?>
               </ol>
             </div>
+
             <div class="col-md-4">
             	Function
               <ol class="sorting function" id="submit">
-                <p class="set_definition">Function: situations in which a physical or informatic use is acting as the focus of attention, with less attention being paid to the psychological or sociological considerations.</p>
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
             	Ritual
               <ol class="sorting ritual" id="submit">
-                <p class="set_definition">Ritual: when the meaning of the artefact is closely related to action of a symbolic nature.</p>
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
             	Myth
               <ol class="sorting myth" id="submit">
-                 <p class="set_definition">Myth: mainly symbolic meaning, thus not necessarily requiring dedicated externally visible activity on the part of the user.</p>
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
-          </div>
-</div>
+          </div><!-- /row -->
+        </div><!-- /tables -->
           
-          <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
+        <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
           
 </section>
 <section class="container pb-5 mb-5 sources">
