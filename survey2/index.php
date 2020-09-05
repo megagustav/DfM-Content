@@ -41,7 +41,7 @@
               </ol>
             </div>
 
-            <div class="col-12 bg-light context_bar">
+            <div class="col-md-12 context_bar">
               <label class="switch">
                 <input id="def" type="checkbox">
                 <span class="slider round"></span>
