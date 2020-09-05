@@ -5,23 +5,25 @@
         <div class="tables">
           <h3 class="instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put these cards into their representative columns <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
-          <label class="switch">
+          <div class="row mb-5">
+            <div class="col-md-4">
+              <p class="set_definition">Function: The main features of a product.</p>
+            </div>
+            <div class="col-md-4">
+              <p class="set_definition">Ritual: Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
+            </div>
+            <div class="col-md-4">
+              <p class="set_definition">Myth: A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
+            </div>
+          </div>
+
+          <label class="switch mb-5">
             <input id="def" type="checkbox">
             <span class="slider round"></span>
             <span class="label">Show Context</span>
           </label>
 
           <div class="row">
-
-            <div class="col-md-4">
-              <p class="set_definition">Function: situations in which a physical or informatic use is acting as the focus of attention, with less attention being paid to the psychological or sociological considerations.</p>
-            </div>
-            <div class="col-md-4">
-              <p class="set_definition">Ritual: when the meaning of the artefact is closely related to action of a symbolic nature.</p>
-            </div>
-            <div class="col-md-4">
-              <p class="set_definition">Myth: mainly symbolic meaning, thus not necessarily requiring dedicated externally visible activity on the part of the user.</p>
-            </div>
 
             <div class="col-md-12">
               <ol class="sorting">
