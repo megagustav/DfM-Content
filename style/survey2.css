@@ -24,7 +24,7 @@ ol {
     margin: 0.2rem;
     padding: .4rem .7rem;
     border: 1px solid;
-    border-color: hsla(200, 43, 90, 1);
+    border-color: rgb(221, 235, 243);
     background: #fff;
     position: relative;
     z-index: 3;
@@ -53,7 +53,7 @@ ol {
       }
 
 ol.sorting {
-  background-color: hsla(200, 43, 95, 1);
+  background-color: rgb(235, 243, 247);
   min-height: 8em;
   border-radius: 0.7em;
   padding: 0.3em;
@@ -113,7 +113,7 @@ span.label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsla(200, 23, 85, 1);
+  background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -190,5 +190,5 @@ h4.column_title {
   max-width: calc(100% - 30px);
   margin-left: 15px;
   margin-bottom: 1em;
-  background-color: hsla(200, 43, 95, 1);
+  background-color: rgb(235, 243, 247);
 }
