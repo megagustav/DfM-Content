@@ -5,6 +5,12 @@
         <div class="tables">
           <h3 class="instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put these cards into their representative columns <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
+          <label class="switch mb-5 float-right">
+            <input id="def" type="checkbox">
+            <span class="slider round"></span>
+            <span class="label">Show Context</span>
+          </label>
+
           <div class="row mb-5">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
@@ -19,12 +25,6 @@
               <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
             </div>
           </div>
-
-          <label class="switch mb-5">
-            <input id="def" type="checkbox">
-            <span class="slider round"></span>
-            <span class="label">Show Context</span>
-          </label>
 
           <div class="row">
 
