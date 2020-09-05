@@ -166,3 +166,9 @@ p.background {
   font-weight: 400;
   font-size: 1rem;
 }
+
+h3.instructions {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 2em;
+}

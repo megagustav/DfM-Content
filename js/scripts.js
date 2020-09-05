@@ -71,7 +71,12 @@ function submit() {
 	xhr.open("POST", url, true);
 	xhr.setRequestHeader("Content-Type", "application/json");
 	var data = JSON.stringify(submitBody);
-	xhr.send(data);
+  xhr.send(data);
+  
+  var r = confirm("Thank you! Would you like to do 20 more?");
+    if (r == true){
+      window.location.reload();
+    }
 
 	//debugger;
 }
