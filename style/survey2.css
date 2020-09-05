@@ -60,9 +60,9 @@ ol.sorting {
 }
 
 p.set_definition {
-  border-color: rgb(235, 243, 247);
+  border: none;
   background-color: rgba(255, 255, 255, 0.7);
-  margin: 0.6em;
+  margin: 0.5em;
 }
 
 .definition {
