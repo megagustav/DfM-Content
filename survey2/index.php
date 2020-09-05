@@ -14,19 +14,13 @@
           <div class="row">
 
             <div class="col-md-4">
-              <ol class="function">
-                <p class="set_definition">Function: situations in which a physical or informatic use is acting as the focus of attention, with less attention being paid to the psychological or sociological considerations.</p>
-              </ol>
+              <p class="set_definition">Function: situations in which a physical or informatic use is acting as the focus of attention, with less attention being paid to the psychological or sociological considerations.</p>
             </div>
             <div class="col-md-4">
-              <ol class="ritual">
-                <p class="set_definition">Ritual: when the meaning of the artefact is closely related to action of a symbolic nature.</p>
-              </ol>
+              <p class="set_definition">Ritual: when the meaning of the artefact is closely related to action of a symbolic nature.</p>
             </div>
             <div class="col-md-4">
-              <ol class="myth">
-                 <p class="set_definition">Myth: mainly symbolic meaning, thus not necessarily requiring dedicated externally visible activity on the part of the user.</p>
-              </ol>
+              <p class="set_definition">Myth: mainly symbolic meaning, thus not necessarily requiring dedicated externally visible activity on the part of the user.</p>
             </div>
 
             <div class="col-md-12">
