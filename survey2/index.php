@@ -46,8 +46,8 @@
 
             <div class="col-md-12">
               <ol class="sorting generator">
+                <p class="background text-muted">No more words. You can click <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
-                <p class="background text-muted">No more words. You can click <kbd>Done</kbd> now.</p>
               </ol>
             </div>
 
