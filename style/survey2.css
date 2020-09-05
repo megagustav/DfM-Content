@@ -96,6 +96,10 @@ span.label {
   height: 34px;
 }
 
+.switch label {
+  margin-bottom: 0;
+}
+
 .switch input { 
   opacity: 0;
   width: 0;
@@ -183,6 +187,8 @@ h4.column_title {
 .context_bar {
   border-radius: 0.7em;
   padding: 1em 1em 0.5em;
+  margin-right: 15px;
+  margin-left: 15px;
   margin-bottom: 2em;
   background-color: rgb(235, 243, 247);
 }
