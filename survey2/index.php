@@ -25,12 +25,6 @@
 
           <div class="row">
 
-            <div class="col-md-12">
-              <ol class="sorting">
-                <?php include "terms-generator.php";?>
-              </ol>
-            </div>
-
             <div class="col-md-4">
             	Function
               <ol class="sorting function" id="submit">
@@ -49,6 +43,14 @@
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
+
+            <div class="col-md-12">
+              <ol class="sorting generator">
+                <?php include "terms-generator.php";?>
+                <p class="background text-muted">No more words. You can click <kbd>Done</kbd> now.</p>
+              </ol>
+            </div>
+
           </div><!-- /row -->
         </div><!-- /tables -->
           
