@@ -5,12 +5,6 @@
         <div class="tables">
           <h3 class="instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put these cards into their representative columns <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
-          <label class="switch mb-5 float-right">
-            <input id="def" type="checkbox">
-            <span class="label">Show Context</span>
-            <span class="slider round"></span>
-          </label>
-
           <div class="row mb-5">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
@@ -25,6 +19,14 @@
               <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
             </div>
           </div>
+
+          <div class="col-12 bg-light">
+            <label class="switch mb-5 float-right">
+              <input id="def" type="checkbox">
+              <span class="slider round"></span>
+              <span class="label">Show Context</span>
+            </label>
+          </div>         
 
           <div class="row">
 
@@ -49,7 +51,7 @@
 
             <div class="col-md-12">
               <ol class="sorting generator">
-                <p class="background text-muted">No more words. You can click <kbd>Done</kbd> now.</p>  
+                <p class="background text-muted">Congratulations, no more words to sort! You can click <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
               </ol>
             </div>
@@ -60,7 +62,9 @@
         <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
           
 </section>
+<hr>
 <section class="container pb-5 mb-5 sources">
+  <p>Sources:</p>
   <p>1: Mekler and Hornbaek, 2019</p>
   <p>2: Wallendorf and Arnould (1988)</p>
   <p>3: Watson (2002)</p>
