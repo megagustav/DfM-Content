@@ -24,7 +24,7 @@ ol {
     margin: 0.2rem;
     padding: .4rem .7rem;
     border: 1px solid;
-    border-color: hsla(200, 43, 90, 1);;
+    border-color: hsla(200, 43, 90, 1);
     background: #fff;
     position: relative;
     z-index: 3;
@@ -113,7 +113,7 @@ span.label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsla(200, 23, 85, 1);;
+  background-color: hsla(200, 23, 85, 1);
   -webkit-transition: .4s;
   transition: .4s;
 }
