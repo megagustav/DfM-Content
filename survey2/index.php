@@ -21,7 +21,7 @@
           </div>
 
           <div class="col-12 bg-light">
-            <label class="switch mb-5 float-right">
+            <label class="switch">
               <input id="def" type="checkbox">
               <span class="slider round"></span>
               <span class="label">Show Context</span>
