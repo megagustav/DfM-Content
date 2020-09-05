@@ -190,5 +190,5 @@ h4.column_title {
   max-width: calc(100% - 30px);
   margin-left: 15px;
   margin-bottom: 1em;
-  background-color: rgb(235, 243, 247);
+  background-color: hsla(200, 43, 95, 1);
 }
