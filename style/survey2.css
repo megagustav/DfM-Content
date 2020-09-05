@@ -173,3 +173,7 @@ h3.instructions {
   margin-bottom: 2em;
   max-width: 60ch;
 }
+
+h4.column_title {
+  margin-left: 1em;
+}

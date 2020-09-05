@@ -7,13 +7,16 @@
 
           <div class="row mb-5">
             <div class="col-md-4">
-              <p class="set_definition">Function: The main features of a product.</p>
+              <h4 class="column_title">Function</p>
+              <p class="set_definition">The main features of a product.</p>
             </div>
             <div class="col-md-4">
-              <p class="set_definition">Ritual: Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
+              <h4 class="column_title">Ritual</p>
+              <p class="set_definition">Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
             </div>
             <div class="col-md-4">
-              <p class="set_definition">Myth: A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
+              <h4 class="column_title">Myth</p>
+              <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
             </div>
           </div>
 
@@ -26,19 +29,19 @@
           <div class="row">
 
             <div class="col-md-4">
-            	Function
+              <h4 class="column_title">Function</p>
               <ol class="sorting function" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-            	Ritual
+              <h4 class="column_title">Ritual</p>
               <ol class="sorting ritual" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-            	Myth
+             	<h4 class="column_title">Myth</p>
               <ol class="sorting myth" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
