@@ -179,3 +179,9 @@ h4.column_title {
   margin-left: 1em;
   font-size: 1.17rem;
 }
+
+.context_bar {
+  border-radius: 0.7em;
+  padding: 1em 1em 0.5em;
+  margin-bottom: 2em;
+}

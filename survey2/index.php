@@ -18,15 +18,7 @@
               <h4 class="column_title">Myth</h4>
               <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
             </div>
-          </div>
-
-          <div class="col-12 bg-light">
-            <label class="switch">
-              <input id="def" type="checkbox">
-              <span class="slider round"></span>
-              <span class="label">Show Context</span>
-            </label>
-          </div>         
+          </div>      
 
           <div class="row">
 
@@ -48,6 +40,14 @@
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
+
+            <div class="col-12 bg-light context_bar">
+              <label class="switch">
+                <input id="def" type="checkbox">
+                <span class="slider round"></span>
+                <span class="label">Show Context</span>
+              </label>
+            </div>   
 
             <div class="col-md-12">
               <ol class="sorting generator">
