@@ -25,25 +25,23 @@
           <div class="row">
 
             <div class="col-md-4">
-              <h4 class="column_title">Function</h4>
               <ol class="sorting function" id="submit">
                 <p class="background text-muted">Drop Function Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-              <h4 class="column_title">Ritual</h4>
               <ol class="sorting ritual" id="submit">
                 <p class="background text-muted">Drop Ritual Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-             	<h4 class="column_title">Myth</h4>
               <ol class="sorting myth" id="submit">
                 <p class="background text-muted">Drop Myth Cards Here</p>
               </ol>
             </div>
 
             <div class="col-md-12 context_bar">
+              <h4 class="column_title">Please sort these cards</h4>
               <label class="switch">
                 <input id="def" type="checkbox">
                 <span class="slider round"></span>
@@ -52,7 +50,6 @@
             </div>   
 
             <div class="col-md-12">
-            <h4 class="column_title">20 Cards to Sort</h4>
               <ol class="sorting generator">
                 <p class="background text-muted">Congratulations, no more words to sort! You can click <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
