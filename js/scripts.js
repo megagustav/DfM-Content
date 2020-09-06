@@ -5,15 +5,15 @@ $(function  () {
     group: 'sorting',
     pullPlaceholder: false,
     // animation on drop
-    //onDrop: function  ($item, container, _super) {
-    //  var $clonedItem = $('<li/>').css({height: 0});
-    //  $item.before($clonedItem);
-    //  $clonedItem.animate({'height': $item.height()});
-//
-//      $item.animate($clonedItem.position(), function  () {
-//        $clonedItem.detach();
-//        _super($item, container);
-//      });
+    onDrop: function  ($item, container, _super) {
+      var $clonedItem = $('<li/>').css({height: 0});
+      $item.before($clonedItem);
+      $clonedItem.animate({'height': $item.height()});
+
+      $item.animate($clonedItem.position(), function  () {
+        $clonedItem.detach();
+        _super($item, container);
+      });
     },
 
     // set $item relative to cursor position
