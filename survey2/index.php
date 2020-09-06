@@ -39,9 +39,9 @@
                 <p class="background text-muted">Drop Myth Cards Here</p>
               </ol>
             </div>
-
+            
+            <h4 class="column_title">Please sort these cards</h4>
             <div class="col-md-12 context_bar">
-              <h4 class="column_title">Please sort these cards</h4>
               <label class="switch">
                 <input id="def" type="checkbox">
                 <span class="slider round"></span>
