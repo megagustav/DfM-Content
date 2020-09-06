@@ -21,17 +21,17 @@ $(function  () {
       var offset = $item.offset(),
           pointer = container.rootGroup.pointer;
 
-      //adjustment = {
-      //  left: pointer.left - offset.left,
-      //  top: pointer.top - offset.top
+      adjustment = {
+        left: pointer.left - offset.left,
+        top: pointer.top - offset.top
       };
 
       _super($item, container);
     },
     onDrag: function ($item, position) {
       $item.css({
-        left: position.left - adjustment.left,
-        top: position.top - adjustment.top
+      //  left: position.left - adjustment.left,
+      //  top: position.top - adjustment.top
       });
     }
   });
