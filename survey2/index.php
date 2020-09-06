@@ -33,6 +33,13 @@
             </div>   
 
             <div class="col-md-6">
+              <ol class="sorting generator">
+                <p class="background text-muted">You can click on <kbd>Done</kbd> now.</p>  
+                <?php include "terms-generator.php";?>
+              </ol>
+            </div>
+
+            <div class="col-md-6">
               <ol class="sorting function" id="submit">
                 <p class="background text-muted">Drop Function Cards Here</p>
               </ol>
@@ -43,14 +50,6 @@
             
               <ol class="sorting myth" id="submit">
                 <p class="background text-muted">Drop Myth Cards Here</p>
-              </ol>
-            </div>
-
-
-            <div class="col-md-6">
-              <ol class="sorting generator">
-                <p class="background text-muted">Congratulations, no more words to sort! You can click <kbd>Done</kbd> now.</p>  
-                <?php include "terms-generator.php";?>
               </ol>
             </div>
 
