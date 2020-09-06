@@ -62,7 +62,7 @@
           <section class="sources">
             <hr>
 
-            <ol>
+            <ol class="sources">
               Sources:
               <li id="1">1. Mekler and Hornbaek, 2019</li>
               <li id="2">2. Wallendorf and Arnould (1988)</li>
