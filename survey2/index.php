@@ -32,7 +32,7 @@
               </label>
             </div>   
 
-            <div class="col-md-6">
+            <div class="col-md-6 pr-md-0">
               <ol class="sorting generator">
                 <p class="background text-muted">Nice job! You can click on <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
@@ -64,10 +64,10 @@
 
             <ol>
               Sources:
-              <li id="1">Mekler and Hornbaek, 2019</li>
-              <li id="2">Wallendorf and Arnould (1988)</li>
-              <li id="3">Watson (2002)</li>
-              <li id="4">Giacomin</li>
+              <li id="1">1. Mekler and Hornbaek, 2019</li>
+              <li id="2">2. Wallendorf and Arnould (1988)</li>
+              <li id="3">3. Watson (2002)</li>
+              <li id="4">4. Giacomin</li>
             </ol>
           </section>
 
