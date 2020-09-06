@@ -12,14 +12,13 @@ body.dragging, body.dragging * {
 }
 
 ol {
-  min-height: 10px; 
-}
-
-ol.sorting {
   list-style-type: none; 
 }
 
-  ol.sorting li, p.set_definition {
+ol {
+  min-height: 10px; 
+}
+  ol li, p.set_definition {
     display: block;
     border-radius: 0.5rem;
     margin: 0.2rem;
@@ -30,11 +29,11 @@ ol.sorting {
     position: relative;
     z-index: 3;
   }
-    ol.sorting li:not(:first-child) {
+    ol li:not(:first-child) {
     margin-top: 0.4rem;
     cursor: pointer;
   }
-    ol.sorting li.placeholder {
+    ol li.placeholder {
       position: relative;
       padding: 0;
       height: 0px;
@@ -43,7 +42,7 @@ ol.sorting {
       margin: 0;
       border-top: 2px solid hsla(200, 100%, 50%, 1);
     }
-      ol.sorting li.placeholder:before {
+      ol li.placeholder:before {
         position: absolute;
         content: "";
         background-color: hsla(200, 100%, 50%, 0.3);
