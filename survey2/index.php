@@ -7,7 +7,7 @@
 
           <hr>
 
-          <div class="row my-3">
+          <div class="row mb-3 mt-4">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
               <p class="set_definition">The main features of a product.</p>
