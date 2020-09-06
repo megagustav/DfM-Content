@@ -25,19 +25,19 @@
           <div class="row">
 
             <div class="col-md-4">
-              <h4 class="column_title">Function</h4>
+              <h4 class="column_title text-muted">Function</h4>
               <ol class="sorting function" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-              <h4 class="column_title">Ritual</h4>
+              <h4 class="column_title text-muted">Ritual</h4>
               <ol class="sorting ritual" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
             </div>
             <div class="col-md-4">
-             	<h4 class="column_title">Myth</h4>
+             	<h4 class="column_title text-muted">Myth</h4>
               <ol class="sorting myth" id="submit">
                 <p class="background text-muted">Drop Cards Here</p>
               </ol>
