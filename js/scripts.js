@@ -21,9 +21,9 @@ $(function  () {
       var offset = $item.offset(),
           pointer = container.rootGroup.pointer;
 
-      adjustment = {
-        left: pointer.left - offset.left,
-        top: pointer.top - offset.top
+      //adjustment = {
+      //  left: pointer.left - offset.left,
+      //  top: pointer.top - offset.top
       };
 
       _super($item, container);
