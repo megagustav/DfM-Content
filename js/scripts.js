@@ -31,7 +31,7 @@ $(function  () {
     onDrag: function ($item, position) {
       $item.css({
       //  left: position.left - adjustment.left,
-      //  top: position.top - adjustment.top
+        top: position.top - adjustment.top
       });
     }
   });
