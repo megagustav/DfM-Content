@@ -34,7 +34,7 @@
 
             <div class="col-md-6">
               <ol class="sorting generator">
-                <p class="background text-muted">You can click on <kbd>Done</kbd> now.</p>  
+                <p class="background text-muted">Nice job! You can click on <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
               </ol>
             </div>
@@ -55,16 +55,20 @@
 
           </div><!-- /row -->
 
-          <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
-
           <hr>
 
+          <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
+
           <section class="sources">
-            <p>Sources:</p>
-            <p>1: Mekler and Hornbaek, 2019</p>
-            <p>2: Wallendorf and Arnould (1988)</p>
-            <p>3: Watson (2002)</p>
-            <p>4: Giacomin</p>
+            <hr>
+
+            <ol>
+              Sources:
+              <li id="1">Mekler and Hornbaek, 2019</li>
+              <li id="2">Wallendorf and Arnould (1988)</li>
+              <li id="3">Watson (2002)</li>
+              <li id="4">Giacomin</li>
+            </ol>
           </section>
 
         </div><!-- /tables -->
