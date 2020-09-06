@@ -24,7 +24,7 @@ ol {
     margin: 0.2rem;
     padding: .4rem .7rem;
     border: 1px solid;
-    border-color: rgb(221, 235, 243);
+    border-color: hsla(200, 43%, 85%, 1);
     background: #fff;
     position: relative;
     z-index: 3;
@@ -40,12 +40,12 @@ ol {
       background: none;
       border-radius: 0;
       margin: 0;
-      border-top: 2px solid rgba(0, 140, 255, 1);
+      border-top: 2px solid hsla(200, 100%, 50%, 1);
     }
       ol li.placeholder:before {
         position: absolute;
         content: "";
-        background-color: rgba(0, 140, 255,0.3);
+        background-color: hsla(200, 100%, 50%, 0.3);
         height: 2.5em;
         margin: 0 .5%;
         width: 99%;
@@ -53,7 +53,7 @@ ol {
       }
 
 ol.sorting {
-  background-color: rgb(235, 243, 247);
+  background-color: hsla(200, 43%, 95%, 1);
   min-height: 8em;
   border-radius: 0.7em;
   padding: 0.3em;
@@ -113,7 +113,7 @@ span.label {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: hsla(200, 23%, 85%, 1);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -131,11 +131,11 @@ span.label {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: hsla(200, 100%, 50%, 0.3);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px hsla(200, 100%, 50%, 0.3);
 }
 
 input:checked + .slider:before {
@@ -153,12 +153,14 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/*
 .tables {
   border: 1px solid gray;
   border-radius: 1.3em;
   padding: .7em 1em 0;
   margin-bottom: 2em;
 }
+*/
 
 p.background {
   position: absolute;
@@ -190,5 +192,5 @@ h4.column_title {
   max-width: calc(100% - 30px);
   margin-left: 15px;
   margin-bottom: 1em;
-  background-color: hsl(200, 43%, 95%, 1);
+  background-color: hsla(200, 43%, 95%, 1);
 }
