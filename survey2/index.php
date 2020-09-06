@@ -7,7 +7,6 @@
 
           <hr>
 
-          <div class="mb-3">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
               <p class="set_definition">The main features of a product.</p>
@@ -16,11 +15,10 @@
               <h4 class="column_title">Ritual</h4>
               <p class="set_definition">Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-3">
               <h4 class="column_title">Myth</h4>
               <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
-            </div>
-          </div>      
+            </div>   
 
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
