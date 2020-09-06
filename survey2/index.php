@@ -5,6 +5,8 @@
         <div class="tables">
           <h3 class="instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put these cards into their representative columns <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
+          <hr>
+
           <div class="row mb-5">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
@@ -57,18 +59,21 @@
             </div>
 
           </div><!-- /row -->
+
+          <hr>
+
+          <section class="sources">
+            <p>Sources:</p>
+            <p>1: Mekler and Hornbaek, 2019</p>
+            <p>2: Wallendorf and Arnould (1988)</p>
+            <p>3: Watson (2002)</p>
+            <p>4: Giacomin</p>
+          </section>
+
         </div><!-- /tables -->
           
         <button onclick="submit()" name="save" value="Submit" type="button" class="btn btn-primary">Done</button>
           
-</section>
-<hr>
-<section class="container pb-5 mb-5 sources">
-  <p>Sources:</p>
-  <p>1: Mekler and Hornbaek, 2019</p>
-  <p>2: Wallendorf and Arnould (1988)</p>
-  <p>3: Watson (2002)</p>
-  <p>4: Giacomin</p>
 </section>
 
 <?php include "../footer.php";?>
