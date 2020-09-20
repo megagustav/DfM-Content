@@ -10,15 +10,15 @@
           <div class="row mb-3 mt-4">
             <div class="col-md-4">
               <h4 class="column_title">Function</h4>
-              <p class="set_definition">The main features of a product.</p>
+              <p class="set_definition">The purpose of something or the way it operates.</p>
             </div>
             <div class="col-md-4">
               <h4 class="column_title">Ritual</h4>
-              <p class="set_definition">Actions performed ceremonially in a prescribed order, with a product and/or other people, motivated by routine or spirituality.</p>
+              <p class="set_definition">Expressive, symbolic actions or human interactions, performed regularly or ceremonially in a prescribed order.</p>
             </div>
             <div class="col-md-4">
               <h4 class="column_title">Myth</h4>
-              <p class="set_definition">A complex network of stories that acts as a personal interpretation for an action, event or product.</p>
+              <p class="set_definition">A traditional, sometimes idealised, story used to explain the idea around a thing, person or social phenomenon.</p>
             </div>
           </div>      
 
@@ -68,6 +68,13 @@
               <li id="2">2. Wallendorf and Arnould (1988)</li>
               <li id="3">3. Watson (2002)</li>
               <li id="4">4. Giacomin</li>
+              <li id="5">5. Making Meaning</li>
+              <li id="6">6. The Elements of Value</li>
+              <li id="7">7. Sheldon et al.</li>
+              <li id="8">8. Richins, Public and Private Meanings</li>
+              <li id="9">9. Rook, Ritual Dimension of Consumer Behavior</li>
+              <li id="10">10. Boztepe, S. (2007). User Value: Competing theories and models. International Journal of Design, 1(2), 55-63</li>
+              <li id="11">11. Mekler, E. D., Hornbaek K. (2016). Momentary Pleasure or Lasting Meaning? Distinguishing Eudaimonic and Hedonic User Experience. CHI 2016, San Jose, CA, USA</li>
             </ol>
           </section>
 
