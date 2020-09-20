@@ -310,22 +310,22 @@ let terms = [
                 "source": "7"
             },
             {
-                "description": "_Self-actualization_ — I felt that I was becoming who I really am, felt a sense of deeper purpose in life and a deeper understanding of myself and my place in the universe",
+                "description": "_Self-actualization_ — I felt that I was becoming who I really am, felt a sense of deeper purpose in life and a deeper understanding of myself and my place in the universe.",
                 "wordId": "63",
                 "source": "7"
             },
             {
-                "description": "_Pleasure — I felt that I was experiencing new sensations and activities, felt intense physical pleasure and enjoyment, and that I had found new sources and types of stimulation for myself.",
+                "description": "_Pleasure_ — I felt that I was experiencing new sensations and activities, felt intense physical pleasure and enjoyment, and that I had found new sources and types of stimulation for myself.",
                 "wordId": "64",
                 "source": "7"
             },
             {
-                "description": "_Money — I felt that I was able to buy most of the things I want, felt that I had nice things and possessions and that I got plenty of money",
+                "description": "_Money_ — I felt that I was able to buy most of the things I want, felt that I had nice things and possessions and that I got plenty of money",
                 "wordId": "65",
                 "source": "7"
             },
             {
-                "description": "_Popularity — The American Dream is the assumption that happiness results when individuals acquire popularity [...] and money.",
+                "description": "_Popularity_ — The American Dream is the assumption that happiness results when individuals acquire popularity [...] and money.",
                 "wordId": "66",
                 "source": "7"
             },
