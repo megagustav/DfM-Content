@@ -121,7 +121,7 @@ let terms = [
             },
             {
                 "description": "_Truth_ — A commitment to honesty and integrity.",
-                "wordId": "25"
+                "wordId": "25",
                 "source": "5"
             },
             {
