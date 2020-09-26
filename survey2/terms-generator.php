@@ -2,7 +2,8 @@
 
     <?php include "terms.php";?>
 
-    // write js here to select 20 random, distinct terms of terms
+    const votedIds = window.sessionStorage.getItem("meaningVoteIds") || [];
+    terms = terms.filter(t => !votedIds.includes(t.wordId));
     let subset = _.sample(terms, 20);
 
     $.each(subset, function(i, item){

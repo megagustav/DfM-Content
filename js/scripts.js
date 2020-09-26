@@ -69,14 +69,19 @@ function submit() {
 	var xhr = new XMLHttpRequest();
 	var url = "/func/vote2";
 	xhr.open("POST", url, true);
-	xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onload = function(event){
+    if (event.target.status === 200 || event.target.status === 302) {
+      window.sessionStorage.setItem("meaningVoteIds", submitBody.keys());
+      var r = confirm("Thank you! Would you like to do 20 more?");
+      if (r == true){
+        window.location.reload();
+      }
+    }
+    else {
+        alert("An error occured, please try again later :/");
+    }
+  };
 	var data = JSON.stringify(submitBody);
   xhr.send(data);
-  
-  var r = confirm("Thank you! Would you like to do 20 more?");
-    if (r == true){
-      window.location.reload();
-    }
-
-	//debugger;
 }
