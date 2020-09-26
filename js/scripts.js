@@ -72,7 +72,8 @@ function submit() {
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onload = function(event){
     if (event.target.status === 200 || event.target.status === 302) {
-      window.sessionStorage.setItem("meaningVoteIds", submitBody.keys());
+      const votedIds = window.sessionStorage.getItem("meaningVoteIds") || [];
+      window.sessionStorage.setItem("meaningVoteIds", votedIds.concat(Object.keys(submitBody)));
       var r = confirm("Thank you! Would you like to do 20 more?");
       if (r == true){
         window.location.reload();
