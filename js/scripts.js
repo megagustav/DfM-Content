@@ -74,7 +74,7 @@ function submit() {
     if (event.target.status === 200 || event.target.status === 302) {
       const votedIds = window.sessionStorage.getItem("meaningVoteIds") || [];
       window.sessionStorage.setItem("meaningVoteIds", votedIds.concat(Object.keys(submitBody)));
-      var r = confirm("Thank you! Would you like to do 20 more?");
+      var r = confirm("Thank you! Would you like to do a few more?");
       if (r == true){
         window.location.reload();
       }
