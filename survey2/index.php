@@ -4,9 +4,9 @@
 
         <div class="tables">
                 
-          <h1>Designing User Experience in Autonomous Vehicles</h1>
+          <h1 class="col-12">Designing User Experience in Autonomous Vehicles</h1>
                 
-          <img class="col-12 mb-5 mt-5" src="car.jpg" />
+          <img class="col-12 mb-5 mt-5 rounded" src="car.jpg" />
                 
           <h3 class="px-3 instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put the cards below into their representative columns — as you see fit. <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
