@@ -2,8 +2,8 @@
 
     <?php include "terms.php";?>
 
-    // write js here to select 20 random, distinct terms of terms
-    let subset = _.sample(terms, 20);
+    // write js here to select 16 random, distinct terms of terms
+    let subset = _.sample(terms, 16);
 
     $.each(subset, function(i, item){
         let match = item.description.match(/_(.+)_/);
