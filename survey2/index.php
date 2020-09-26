@@ -3,7 +3,10 @@
 	<section class="container pb-5 mb-5 intro">
 
         <div class="tables">
-          <h3 class="px-3 instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put the 20 cards into their representative columns. <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
+                
+          <img src="car.jpg" />
+                
+          <h3 class="px-3 instructions">According to the definitions of <i>function</i>, <i>ritual</i> and <i>myth</i>, please put the cards below into their representative columns — as you see fit. <!--span onClick="window.location.reload();" class="badge badge-primary float-right new_words">Get New Words</span--></h3>
 
           <hr>
 
