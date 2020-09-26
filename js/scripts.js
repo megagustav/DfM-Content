@@ -73,7 +73,7 @@ function submit() {
   xhr.onload = function(event){
     if (event.target.status === 200 || event.target.status === 302) {
       window.sessionStorage.setItem("meaningVoteIds", submitBody.keys());
-      var r = confirm("Thank you! Would you like to do 20 more?");
+      var r = confirm("Thank you! Would you like to do a few more?");
       if (r == true){
         window.location.reload();
       }
