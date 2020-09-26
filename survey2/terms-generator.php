@@ -4,7 +4,7 @@
 
     const votedIds = window.sessionStorage.getItem("meaningVoteIds") || [];
     terms = terms.filter(t => !votedIds.includes(t.wordId));
-    let subset = _.sample(terms, 20);
+    let subset = _.sample(terms, 16);
 
     $.each(subset, function(i, item){
         let match = item.description.match(/_(.+)_/);
