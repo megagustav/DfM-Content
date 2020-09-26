@@ -2,7 +2,7 @@
 
     <?php include "terms.php";?>
 
-    const votedIds = window.sessionStorage.getItem("meaningVoteIds") || [];
+    const votedIds = JSON.parse(sessionStorage.getItem("meaningVoteIds")) || [];
     terms = terms.filter(t => !votedIds.includes(t.wordId));
     let subset = _.sample(terms, 16);
 
