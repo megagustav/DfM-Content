@@ -84,7 +84,7 @@
           </section>
 
         </div><!-- /tables -->
-        <div class="tables disclaimer">
+        <div class="tables disclaimer mt-5">
           <!--h4>What happens when I click <kbd>Done</kbd>?</h4>
           
           <p>This preliminary research stems from reading articles on mnemonic devices and work rituals with the goal of extracting practical semantics for everyday people for <i>function</i>, <i>ritual</i> and <i>myth</i>.</p-->
