@@ -84,6 +84,13 @@
           </section>
 
         </div><!-- /tables -->
+        <div class="tables disclaimer">
+          <h3>What happens when I click <kbd>Done</kbd>?</h3>
+          
+          <p>This preliminary research stems from reading articles on mnemonic devices and work rituals with the goal of extracting practical semantics for everyday people for <i>function</i>, <i>ritual</i> and <i>myth</i>.</p>
+          
+          <p class="text-muted small mb-4">Disclaimer: This survey is for scientific purposes for <a href="https://www.polimi.it" target="_blank">Politecnico di Milano</a>. To ensure that there are as few outliers as possible, we record the time and anonymised and SHA-256 encrypted IPv6 address of each submission. We do this to identify and delete duplicate submissions. We don't have personally identifiable information about the participant and the collected data will be deleted once it's aggregated into the report. All we care about is the sum of responses, not individual answers.</p>
+        </div>
           
 </section>
 
