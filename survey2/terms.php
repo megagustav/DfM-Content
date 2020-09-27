@@ -355,122 +355,122 @@ let terms = [
                 "source": "9"
         },
         {
-                "description": "_Time Management_ — ",
+                "description": "_Time Management_ — the ability to use one's time effectively or productively, especially at work",
                 "wordId": "72",
                 "source": "10"
         },
         {
-                "description": "_Accessibility_ — ",
+                "description": "_Accessibility_ — the quality of being easy to obtain or use, the quality of being easily understood or appreciated",
                 "wordId": "73",
                 "source": "10"
         },
         {
-                "description": "_Appropriateness_ — ",
+                "description": "_Appropriateness_ — the quality of being suitable or proper in the circumstances",
                 "wordId": "74",
                 "source": "10"
         },
         {
-                "description": "_Physical Compatibility_ — ",
+                "description": "_Physical Compatibility_ — a state in which two things are able to exist or occur together without problems or conflict.",
                 "wordId": "75",
                 "source": "10"
         },
         {
-                "description": "_Avoidance of Sensory Unpleasantness_ — ",
+                "description": "_Avoidance of Sensory Unpleasantness_ — the state or quality of being unpleasant, relating to sensation or the physical senses; transmitted or perceived by the senses.",
                 "wordId": "76",
                 "source": "10"
         },
         {
-                "description": "_Safety_ — ",
+                "description": "_Safety_ — the condition of being protected from or unlikely to cause danger, risk, or injury.",
                 "wordId": "77",
                 "source": "10"
         },
         {
-                "description": "_Performance and Efficiency_ — ",
+                "description": "_Performance and Efficiency_ — the action or process of performing a task or function, the state or quality of being efficient",
                 "wordId": "78",
                 "source": "10"
         },
         {
-                "description": "_Durability and Reliability_ — ",
+                "description": "_Durability and Reliability_ — the ability to withstand wear, pressure, or damage, the quality of being trustworthy or of performing consistently well",
                 "wordId": "79",
                 "source": "10"
         },
         {
-                "description": "_Use Economy_ — ",
+                "description": "_Use Economy_ — be or become familiar with (someone or something) through experience and careful management of available resources",
                 "wordId": "80",
                 "source": "10"
         },
         {
-                "description": "_Purchase Economy_ — ",
+                "description": "_Purchase Economy_ — acquiring something through careful management of available resources",
                 "wordId": "81",
                 "source": "10"
         },
         {
-                "description": "_Face Saving Acts_ — ",
+                "description": "_Face Saving Acts_ — actions and gestures preserving of one's reputation, credibility, or dignity",
                 "wordId": "82",
                 "source": "10"
         },
         {
-                "description": "_Impression Management_ — ",
+                "description": "_Impression Management_ — Controlling or influencing an idea, feeling, or opinion about something or someone, especially one formed without conscious thought or on the basis of little evidence",
                 "wordId": "83",
                 "source": "10"
         },
         {
-                "description": "_Role Fulfilling_ — ",
+                "description": "_Role Fulfilling_ — making someone satisfied or happy through allowing their character or abilities to develop fully",
                 "wordId": "84",
                 "source": "10"
         },
         {
-                "description": "_Group Belongingness_ — ",
+                "description": "_Group Belongingness_ — the state or feeling of belonging to a particular group.",
                 "wordId": "85",
                 "source": "10"
         },
         {
-                "description": "_Maintaining Tradition_ — ",
+                "description": "_Maintaining Tradition_ — the transmission of customs or beliefs from generation to generation, or the fact of being passed on in this way.",
                 "wordId": "86",
                 "source": "10"
         },
         {
-                "description": "_Affection_ — ",
+                "description": "_Affection_ — a gentle feeling of fondness or liking",
                 "wordId": "87",
                 "source": "10"
         },
         {
-                "description": "_Fun_ — ",
+                "description": "_Fun_ — enjoyment, amusement, or light-hearted pleasure",
                 "wordId": "88",
                 "source": "10"
         },
         {
-                "description": "_Memorability_ — ",
+                "description": "_Memorability_ — the faculty by which the mind stores and remembers information",
                 "wordId": "89",
                 "source": "10"
         },
         {
-                "description": "_Good Luck_ — ",
+                "description": "_Good Luck_ — success or failure apparently brought by chance rather than through one's own actions",
                 "wordId": "90",
                 "source": "10"
         },
         {
-                "description": "_Eudaimonia_ — ",
+                "description": "_Eudaimonia_ — conducive to happiness",
                 "wordId": "91",
                 "source": "11"
         },
         {
-                "description": "_Hedonia_ — ",
+                "description": "_Hedonia_ — engaged in the pursuit of pleasure; sensually self-indulgent.",
                 "wordId": "92",
                 "source": "11"
         },
         {
-                "description": "_Serenity_ — ",
+                "description": "_Serenity_ — the state of being calm, peaceful, and untroubled",
                 "wordId": "93",
                 "source": "11"
         },
         {
-                "description": "_Surprise_ — ",
+                "description": "_Surprise_ — an unexpected or astonishing event, fact, etc.",
                 "wordId": "94",
                 "source": "11"
         },
         {
-                "description": "_Contemplativeness_ — ",
+                "description": "_Contemplativeness_ — expressing or involving prolonged thought",
                 "wordId": "95",
                 "source": "11"
         },
@@ -490,8 +490,7 @@ let terms = [
                 "source": "12"
         },
         {
-                "description": "_Consistency and standards_ — Users should not have to wonder whether different words, situations, or actions mean
-                the same thing. Follow platform conventions.",
+                "description": "_Consistency and standards_ — Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.",
                 "wordId": "99",
                 "source": "12"
         },

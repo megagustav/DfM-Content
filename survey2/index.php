@@ -46,17 +46,17 @@
 
             <div class="col-md-6">
               <ol class="sorting function" id="submit">
-                <span class="label text-muted">Function</span>
+                <span class="label text-muted d-block">Function</span>
                 <p class="background text-muted">Drop Function Cards Here</p>
               </ol>
 
               <ol class="sorting ritual" id="submit">      
-                <span class="label text-muted">Ritual</span>
+                <span class="label text-muted d-block">Ritual</span>
                 <p class="background text-muted">Drop Ritual Cards Here</p>
               </ol>
             
               <ol class="sorting myth" id="submit">
-                <span class="label text-muted">Myth</span>
+                <span class="label text-muted d-block">Myth</span>
                 <p class="background text-muted">Drop Myth Cards Here</p>
               </ol>
             </div>
@@ -83,7 +83,8 @@
               <li id="7">7. Sheldon, Kennon & Elliot, Andrew & Kim, Youngmee & Kasser, Tim. (2001). What Is Satisfying About Satisfying Events? Testing 10 Candidate Psychological Needs. Journal of personality and social psychology. 80. 325-39. 10.1037/0022-3514.80.2.325. </li>
               <li id="8">8. Richins, Marsha. (1994). Valuing Things: The Public and Private Meanings of Possessions. Journal of Consumer Research. 21. 504-21. 10.1086/209414. </li>
               <li id="9">9. Rook, D. (1985). The Ritual Dimension of Consumer Behavior. Journal of Consumer Research, 12(3), 251-264. Retrieved September 27, 2020, from http://www.jstor.org/stable/254372</li>
-              <li id="10">10. Boztepe, S. (2007). User Value: Competing theories and models. International Journal of Design, 1(2), 55-63</li>
+              <li id="10">10. Boztepe, S. (2007). User Value: Competing theories and models. International Journal of Design, 1(2), 55-63 <br>
+              Definitions from: OED Online. Oxford University Press, September 2020. Web. 27 September 2020.</li>
               <li id="11">11. Mekler, E. D., Hornbaek K. (2016). Momentary Pleasure or Lasting Meaning? Distinguishing Eudaimonic and Hedonic User Experience. CHI 2016, San Jose, CA, USA</li>
               <li id="12">12. de Souza, Clarisse. (2005). Semiotic engineering: Bringing designers and users together at interaction time. Interacting with Computers. 17. 317-341. 10.1016/j.intcom.2005.01.007. </li>
             </ol>
