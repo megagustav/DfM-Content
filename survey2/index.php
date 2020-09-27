@@ -69,17 +69,20 @@
 
             <ol class="sources">
               Sources:
-              <li id="1">1. Mekler and Hornbaek, 2019</li>
-              <li id="2">2. Wallendorf and Arnould (1988)</li>
+              <li id="1">1. Elisa D. Mekler and Kasper Hornbæk. 2019. A Framework for the Experience of Meaning in Human-Computer Interaction. In CHI Conference on Human Factors in Computing Systems Proceedings (CHI 2019), May 4–9, 2019, Glasgow, Scotland UK. ACM, New York, NY, USA, 15 pages. https://doi.org/10.1145/3290605.3300455</li>
+              <li id="2">2. Wallendorf, M., & Arnould, E. J. (1988). "My favorite things": A cross-cultural inquiry into object attachment, possessiveness, and social linkage. Journal of Consumer Research, 14(4), 531–547. https://doi.org/10.1086/209134 </li>
               <li id="3">3. Watson (2002)</li>
-              <li id="4">4. Giacomin</li>
-              <li id="5">5. Making Meaning</li>
-              <li id="6">6. The Elements of Value</li>
-              <li id="7">7. Sheldon et al.</li>
-              <li id="8">8. Richins, Public and Private Meanings</li>
-              <li id="9">9. Rook, Ritual Dimension of Consumer Behavior</li>
+              <li id="4">4. Giacomin, J. What is Design for Meaning? (2017)</li>
+              <li id="5">5. Making Meaning, Diller, Shedroff, Rhea, 2008</li>
+              <li id="6">6. The B2B Elements of Value
+                      by Eric Almquist , Jamie Cleghorn and Lori Sherer
+                      From the March–April 2018 Issue</li>
+              <li id="7">7. Sheldon, Kennon & Elliot, Andrew & Kim, Youngmee & Kasser, Tim. (2001). What Is Satisfying About Satisfying Events? Testing 10 Candidate Psychological Needs. Journal of personality and social psychology. 80. 325-39. 10.1037/0022-3514.80.2.325. </li>
+              <li id="8">8. Richins, Marsha. (1994). Valuing Things: The Public and Private Meanings of Possessions. Journal of Consumer Research. 21. 504-21. 10.1086/209414. </li>
+              <li id="9">9. Rook, D. (1985). The Ritual Dimension of Consumer Behavior. Journal of Consumer Research, 12(3), 251-264. Retrieved September 27, 2020, from http://www.jstor.org/stable/254372</li>
               <li id="10">10. Boztepe, S. (2007). User Value: Competing theories and models. International Journal of Design, 1(2), 55-63</li>
               <li id="11">11. Mekler, E. D., Hornbaek K. (2016). Momentary Pleasure or Lasting Meaning? Distinguishing Eudaimonic and Hedonic User Experience. CHI 2016, San Jose, CA, USA</li>
+              <li id="12">12. de Souza, Clarisse. (2005). Semiotic engineering: Bringing designers and users together at interaction time. Interacting with Computers. 17. 317-341. 10.1016/j.intcom.2005.01.007. </li>
             </ol>
           </section>
 
