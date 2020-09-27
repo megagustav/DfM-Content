@@ -475,8 +475,7 @@ let terms = [
                 "source": "11"
         },
         {
-                "description": "_Visibility of System Status_ — The system should always keep users informed about what is going on, through
-                appropriate feedback within reasonable time.",
+                "description": "_Visibility of System Status_ — The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.",
                 "wordId": "96",
                 "source": "12"
         },
@@ -517,8 +516,7 @@ let terms = [
                 "source": "12"
         },
         {
-                "description": "_Help users recognize, diagnose, and recover from errors_ — Error messages should be expressed in plain language (no codes), precisely indicate the
-                problem, and constructively suggest a solution.",
+                "description": "_Help users recognize, diagnose, and recover from errors_ — Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.",
                 "wordId": "104",
                 "source": "12"
         },
