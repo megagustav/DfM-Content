@@ -1,4 +1,13 @@
-<?php include "../header.php";?>
+<?php   ob_start();
+        include "../header.php";
+        $buffer=ob_get_contents();
+        ob_end_clean();
+        
+        $title = "Designing User Experience in Autonomous Vehicles — Survey";
+        $buffer = preg_replace('/(<title>)(.*?)(<\/title>)/i', '$1' . $title . '$3', $buffer);
+        
+        echo $buffer;
+?>
 
 	<section class="container pb-5 mb-5 intro">
 
