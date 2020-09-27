@@ -46,17 +46,17 @@
 
             <div class="col-md-6">
               <ol class="sorting function" id="submit">
-                <span class="label text-muted label-container">Function</span>
+                <span class="text-muted label-container">Function</span>
                 <p class="background text-muted">Drop Function Cards Here</p>
               </ol>
 
               <ol class="sorting ritual" id="submit">      
-                <span class="label text-muted label-container">Ritual</span>
+                <span class="text-muted label-container">Ritual</span>
                 <p class="background text-muted">Drop Ritual Cards Here</p>
               </ol>
             
               <ol class="sorting myth" id="submit">
-                <span class="label text-muted label-container">Myth</span>
+                <span class="text-muted label-container">Myth</span>
                 <p class="background text-muted">Drop Myth Cards Here</p>
               </ol>
             </div>
