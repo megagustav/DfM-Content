@@ -1,4 +1,9 @@
-<?php include "header.php";?>
+<?php include "header.php";
+			header("Location: /survey2");
+			die();
+?>
+
+
 	
 	<section class="container intro">
 		home.
