@@ -46,14 +46,14 @@
               </label>
             </div>   
 
-            <div class="col-md-6 pr-md-0">
+            <div class="col-10 col-md-6 pr-md-0">
               <ol class="sorting generator">
                 <p class="background text-muted">Nice job! You can click on <kbd>Done</kbd> now.</p>  
                 <?php include "terms-generator.php";?>
               </ol>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-10 col-md-6">
               <ol class="sorting function" id="submit">
                 <span class="text-muted label-container">Function</span>
                 <p class="background text-muted">Drop Function Cards Here</p>
@@ -100,12 +100,8 @@
           </section>
 
         </div><!-- /tables -->
-        <div class="tables disclaimer mt-5">
-          <!--h4>What happens when I click <kbd>Done</kbd>?</h4>
-          
-          <p>This preliminary research stems from reading articles on mnemonic devices and work rituals with the goal of extracting practical semantics for everyday people for <i>function</i>, <i>ritual</i> and <i>myth</i>.</p-->
-          
-          <p class="text-muted small mb-4">Disclaimer: This survey is for scientific purposes for <a href="https://www.polimi.it" target="_blank">Politecnico di Milano</a>. To ensure that there are as few outliers as possible, we record the time and anonymised and SHA-256 encrypted IPv6 address of each submission. We do this to identify and delete duplicate submissions. We don't have personally identifiable information about the participant and the collected data will be deleted once it's aggregated into the report. All we care about is the sum of responses, not individual answers.</p>
+        <div class="tables disclaimer mt-5">         
+          <p class="text-muted small mb-4">Disclaimer: This survey is for the Interaction Design 2020 course at <a href="https://www.polimi.it" target="_blank">Politecnico di Milano</a>. We don't record personally identifiable information about the participant and the collected data will be deleted once it's aggregated into the report. All we care about is the sum of responses, not individual answers.</p>
         </div>
           
 </section>
