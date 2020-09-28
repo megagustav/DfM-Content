@@ -9,7 +9,7 @@
         echo $buffer;
 ?>
 
-<div class="mt-5 pt-5 d-md-none alert alert-warning alert-dismissible fade show" role="alert">
+<div class="d-md-none alert alert-warning alert-dismissible fade show" role="alert">
   <strong>Help</strong> For a better experience with this survey, please use a larger screen than your phone.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
