@@ -3,7 +3,7 @@
         $buffer=ob_get_contents();
         ob_end_clean();
         
-        $title = "Designing User Experience in Autonomous Vehicles — Survey";
+        $title = "Designing User Experience in Autonomous Cars — Survey";
         $buffer = preg_replace('/(<title>)(.*?)(<\/title>)/i', '$1' . $title . '$3', $buffer);
         
         echo $buffer;
@@ -12,7 +12,7 @@
 	<section class="container pb-5 mb-5 intro">
                 
                 <div class="d-md-none alert alert-warning alert-dismissible fade show" role="alert">
-                  <strong>Help</strong> For a better experience with this survey, please use a larger screen than your phone.
+                  For a better experience with this survey, please use a larger screen than your phone.
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -20,7 +20,7 @@
 
         <div class="tables">
                 
-          <h1 class="col-12">Designing User Experience in Autonomous Vehicles</h1>
+          <h1 class="col-12">Designing User Experience in Autonomous Cars</h1>
                 
           <img class="col-12 mb-5 mt-5 rounded" src="car.jpg" />
                 
@@ -108,7 +108,7 @@
 
         </div><!-- /tables -->
         <div class="tables disclaimer mt-5">         
-          <p class="text-muted small mb-4">Disclaimer: This survey is for the Interaction Design 2020 course at <a href="https://www.polimi.it" target="_blank">Politecnico di Milano</a>. We don't record personally identifiable information about the participant and the collected data will be deleted once it's aggregated into the report. All we care about is the sum of responses, not individual answers.</p>
+          <p class="text-muted small mb-4">Disclaimer: This survey is part of a research project aiming to identifying meaningful semantics associated with autonomous cars. All information will be used for statistical analyses only and will remain strictly confidential. No record of personally identifiable information about the participant will be maintained. For later publication, we record the sum of responses, not individual answers.</p>
         </div>
           
 </section>
