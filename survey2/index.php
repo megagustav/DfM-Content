@@ -9,14 +9,14 @@
         echo $buffer;
 ?>
 
-<div class="d-md-none alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Help</strong> For a better experience with this survey, please use a larger screen than your phone.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
 	<section class="container pb-5 mb-5 intro">
+                
+                <div class="d-md-none alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>Help</strong> For a better experience with this survey, please use a larger screen than your phone.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
 
         <div class="tables">
                 

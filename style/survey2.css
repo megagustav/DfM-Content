@@ -201,6 +201,6 @@ h4.column_title {
   margin-top: 0.3em;
 }
 
-.alert.alert-warning {
-  margin-top: 6rem !important;
+.alert {
+  margin-top: -3rem;
 }
